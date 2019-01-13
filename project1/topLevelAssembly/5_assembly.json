@@ -1,0 +1,11 @@
+{
+  "constraints": {
+    "interface": {
+      "ic0": ["in0", "in1"]
+    }
+  },
+  "interface": {
+    "part1": { "position": [0, 200, 3] }
+  },
+  "defaultUnits": null
+}

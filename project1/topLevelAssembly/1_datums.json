@@ -1,0 +1,26 @@
+{
+  "points": {
+    "pt0": [20, 4, 5],
+    "pt1": [0, -20, 0],
+    "pt2": [1, 2, 3],
+    "pt3": [-4, 5, 12],
+    "pt4": [0, 0, 0]
+  },
+  "lines": {
+    "ln0": ["pt0", "pt1"],
+    "ln1": ["pn0", "pn1"],
+    "ln2": {
+      "coordinates": "spherical",
+      "definition": ["pt4", [45, 60]]
+    },
+    "ln3": {
+      "coordinates": "spherical",
+      "definition": ["pt2", ["PI/2", "2*PI/3"]]
+    }
+  },
+  "planes": {
+    "pn0": ["pt1", "pt2", "pt3"],
+    "pn1": ["ln0", "pt3"]
+  },
+  "coordinateSystems": {}
+}

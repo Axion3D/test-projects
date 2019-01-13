@@ -1,0 +1,12 @@
+{
+  "boxes": {
+    "box0": {
+      "dimensions": [1, 2, 3],
+      "position": [-2, 4, 3]
+    },
+    "box1": {
+      "dimensions": [4, 2, -4],
+      "position": [-1, 0, 1]
+    }
+  }
+}

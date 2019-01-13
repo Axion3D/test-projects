@@ -1,0 +1,31 @@
+{
+  "standardOpenShapes": {
+    "lineSegments": {
+      "ls0": ["pt2", "pt3"]
+    },
+    "arcs": {},
+    "splines": {}
+  },
+  "standardClosedShapes": {
+    "circles": {
+      "cr0": ["pt0", 5],
+      "cr1": ["pt2", "pt3", "pt4"]
+    },
+    "ovals": {},
+    "rectangles": {},
+    "regularPolygons": {}
+  },
+  "derivedGeometry": {
+    "dg0": ["cr0", "UNION", "cr1"]
+  },
+  "constraints": {
+    "parallel": {
+      "cp0": ["ls0", "pn0"]
+    },
+    "tangentLineToCurve": {
+      "tl0": ["ln0", "cr0"]
+    },
+    "pointToCurve": {}
+  },
+  "dimensions": {}
+}
