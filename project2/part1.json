@@ -7,6 +7,10 @@
     "box1": {
       "dimensions": [4, 2, -4],
       "position": [-1, 0, 1]
+    },
+    "box2": {
+      "dimensions": [4, 2, -4],
+      "position": [-1, 0, 1]
     }
   }
 }
