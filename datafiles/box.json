@@ -1,0 +1,14 @@
+{
+   "mesh": {
+      "geometry": {
+         "type": "BOX",
+         "dimensions": "2,1,1"
+      },
+      "materials": [{
+         "type": "MESH_BASIC",
+         "options": {
+            "color": "#123123"
+         }
+      }]
+   }
+}
